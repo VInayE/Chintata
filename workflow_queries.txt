@@ -1,0 +1,10 @@
+Getting NotificationStatus
+==========================================================================================================
+Select n.FKIssue,n.FKComment,n.FKMessage,n.Date,n.SystemID as NotificationID,n.NotificationStatus,n.ReadStatus ,n.FKUserDetails,n.NotificationMessage,n.NotificationType, '' as Avatar, u.SocialHandle, u.UserPoint, u.SystemId as UserSysId from [FSI].EU_Notification n
+left join [FSI].EU_UserDetails u on u.UserId = n.NotificationUser
+where
+NotificationUser =@fsiuser order by Date desc
+
+Notification Get count 
+---------------------------------------------------------------------------------------------------------
+Select count(*) as Count from [FSI].EU_Notification where NotificationStatus = 'New' and NotificationUser = @fsiuser 

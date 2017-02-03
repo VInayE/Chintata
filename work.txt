@@ -1,0 +1,28 @@
+Hi Lance,
+
+
+Today : 
+
+		 
+LAD (Version 11): 
+
+         1) 71961 : LAD : App responsive issue on smaller screen (Done)
+		 
+				 
+		 
+Platform bug: 
+
+
+Defect logged:  
+
+
+Defect processed: None
+
+
+Difficulties: None
+
+
+
+
+Best Regards,
+Rahul Kumar
